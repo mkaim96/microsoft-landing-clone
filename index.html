@@ -10,9 +10,8 @@
     <title>Microsoft</title>
 </head>
 <body>
-
     <div class="container">
-        <nav>
+        <nav id="main-nav">
             
             <ul class="nav-left">
                 <li><img src="img/logo2png.png" class="logo" alt=""></li>
@@ -27,12 +26,37 @@
             
             <ul class="nav-right">
                 <li><a href="#">Wszystkie produkty microsoft <i class="fas fa-angle-down"></i></a></li>
-                <li><a href="#">Wyszukaj <i class="fas fa-search"></i></a></li>
-                <li><a href="#">Koszyk <i class="fas fa-shopping-cart"></i></a></li>
+                <li><a href="#"><span>Wyszukaj</span> <i class="fas fa-search"></i></a></li>
+                <li><a href="#"><span>Koszyk</span><i class="fas fa-shopping-cart"></i></a></li>
             </ul>
 
 
         </nav>
+
+        <nav class="nav-mobile">
+            <div class="nav-left-mobile">
+                <a href="#" id="burger"><i class="fas fa-bars"></i></a>
+                <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="logo">
+                <img src="img/logo2png.png" class="logo" alt="">
+            </div>
+            <div class="nav-left-mobile">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </nav>
+        
+        <div class="nav-mobile-dropdown">
+            <ul>
+                <li><a href="">Microsoft 365</a></li>
+                <li><a href="">Office</a></li>
+                <li><a href="">Windows</a></li>
+                <li><a href="">Surface</a></li>
+                <li><a href="">Xbox</a></li>
+                <li><a href="">Promocje i zniżki</a></li>
+                <li><a href="">Pomoc techniczna</a></li>
+            </ul>
+        </div>
 
         <section class="banner">
             <div class="product-info">
@@ -190,6 +214,7 @@
 
             
         </section>
+        <div class="overlay"></div>
 </div>
 <footer>
     <div class="container footer">
